@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  flex-grow: 1.25;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  flex-grow: 1;
+  color: #000;
+}
+
+.icons {
+  flex-grow: 1.25;
+  text-align: end;
+}
+
+.cart-icon {
+    margin-left: 2rem;
+}

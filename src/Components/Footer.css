@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer > div {
+    margin: auto 3rem;
+    align-self: center;
+}
+
+.pagination,
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination > span,
+.price > span {
+    flex-grow: 1;
+    display: block;
+}
+
+.pagination > span > p {
+    margin-bottom: -0.25rem;
+}
+
+.amount::before {
+    content: "\2014";
+    margin-left: .5rem;
+    padding-right: .5rem;
+}
+
+.price > span > p {
+    display: inline-block;
+}
+
+.arrow-icon {
+    width: 2rem;
+}
+
+.prev {
+    margin-right: 1.5rem;
+}
